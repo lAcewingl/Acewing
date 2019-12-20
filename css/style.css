@@ -1,7 +1,7 @@
 body {
     position: relative;
     font-family: Generica; 
-    min-height: 2000px;
+    min-height: 1080px;
     background-color:  black;
     z-index: 0;
 }
@@ -17,6 +17,7 @@ header {
     height: 100%;
     width: 100%;
     z-index: 1;
+    padding: 0%;
 }
 
 .nav {
@@ -78,6 +79,9 @@ header {
     width: 70px;
 }
 
+a: {
+    color: black;
+}
 
 a:visited {
     color: black;
@@ -96,8 +100,8 @@ main {
     display: block;
     padding: 9.2% 0% 0% 0%;
     margin: 0% 0% 0% 0%;
-    height: 4000px;
-    background-color: #155B7A;
+    min-height: 1440px;
+    background-color: #002838;
 }
 
 
@@ -117,3 +121,26 @@ h2 {
     font-size: 75px;
 }
 
+
+.about {
+    display: block;
+    position: relative;
+    background-color: #E5E5E5;
+    padding: 0px;
+    top: 10%;
+    width: 30%;
+    height: 650px;
+    left: 60%;
+    
+}
+
+.name{
+    padding-top: 5%;
+}
+
+.disc {
+    display: block;
+    position: relative;
+    font-size: 40px;
+    padding: 10%;
+}
