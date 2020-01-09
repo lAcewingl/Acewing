@@ -40,9 +40,10 @@ header {
     margin: 0px;
     bottom: 70%;
     color: black;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: left;
     float: right;
+    word-spacing: 50px;
 }
 
 .title {
@@ -96,7 +97,7 @@ main {
     padding: 10% 0% 0% 0%;
     margin: 0% 10% 0% 10%;
     height: 4000px;
-    background-color: #155B7A;
+    background-color: #002838;
 }
 
 
