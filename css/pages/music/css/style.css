@@ -1,0 +1,177 @@
+body {
+    position: relative;
+    font-family: Generica; 
+    min-height: 80.6572068707991vh;
+    background-color:  black;
+    z-index: 0;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+header {    
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding: 0%;
+}
+
+.nav {
+    position: relative;
+    padding-top: 0;
+    padding-right: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2.75%;
+    background: #E5E5E5;
+    z-index: 2;
+}
+
+.navigation {
+    display: inline;
+    position: relative;
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0px;
+    bottom: 70%;
+    color: black;
+    font-size: 2.2404779686333085vh;
+    text-align: left;
+    float: right;
+    right: 0%;
+    word-spacing: 50px;
+}
+
+.title {
+    display: inline-block;
+    position: absolute;
+    padding: 0% 0.1% 0% 0%;
+    width: 8%;
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+    bottom: 14%;
+    font-size: 2.9873039581777445vh;
+    clear: left;
+    color: #110d38;
+
+}
+
+.logocontainer {
+    position: relative;
+    margin: auto;
+    display: block;
+    padding: 1% 0% 0% 0%;
+    height: 100%;
+    width: 3%;
+    top: 0%;
+}
+.logo {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    margin: 0px;
+    left: 0%;
+    height: 4.1075429424943986vh;
+    width: 70px;
+}
+
+a: {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #110d38
+}
+
+
+
+/* MAIN PORTION OF SITE */
+
+
+main {
+    position: relative;
+    display: block;
+    padding: 10% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    height: 4000px;
+    background-color: #110d38;
+}
+
+
+
+h1 {
+    display: inline-block;
+    position: relative;
+    font-size: 75px;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+
+
+.musiccontainer {
+    display: block;
+    position: relative;
+    padding: 5% 10% 60% 10%;
+    margin: 5% 5%;
+    background-color: #E5E5E5;
+    overflow: hidden;
+    border-radius: 1rem;
+    height: 80%;
+}
+
+h2 {
+    font-size: 75px;
+    text-align: left;
+}
+
+.upcomingcontainer {
+    display: inline-flex;
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    padding: 5% 0% 0% 10%;
+ /*   background-color: black; */
+}
+
+.tracks {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    
+}
+
+span:before{
+    content:" "; 
+    display:inline-block; 
+    width: 5rem;
+}
+.alltracks {
+    display: inline=block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0% 0% 0% 10%;
+}
+
+
+
+footer {
+    
+}

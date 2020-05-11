@@ -1,7 +1,7 @@
 body {
     position: relative;
     font-family: Generica; 
-    min-height: 2000px;
+    min-height: 80.6572068707991vh;
     background-color:  black;
     z-index: 0;
 }
@@ -12,49 +12,54 @@ body {
 }
 
 header {    
-    display: inline-block;
-    position: fixed;
+    display: block;
+    position: absolute;
     height: 100%;
     width: 100%;
     z-index: 1;
+    padding: 0%;
 }
 
 .nav {
     position: relative;
     padding-top: 0;
-    padding-right: 0px;
+    padding-right: 0%;
     top: 0;
     left: 0;
     width: 100%;
-    height: 5%;
+    height: 2.75%;
     background: #E5E5E5;
     z-index: 2;
 }
 
 .navigation {
-    display: inline-block;
+    display: inline;
     position: relative;
-    width: 33%;
-    padding: 0px 0px;
-    padding-right: 0%;
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin: 0px;
     bottom: 70%;
     color: black;
-    font-size: 1.875rem;
+    font-size: 2.2404779686333085vh;
     text-align: left;
     float: right;
+    right: 0%;
     word-spacing: 50px;
 }
 
 .title {
-    float: left;
     display: inline-block;
     position: absolute;
-    padding: 0.5% 1%;
+    padding: 0% 0.1% 0% 0%;
+    width: 8%;
+    height: 100%;
     margin: 0px;
-    top:  0%;
-    font-size: 40px;
+    text-align: center;
+    bottom: 14%;
+    font-size: 2.9873039581777445vh;
     clear: left;
+    color: #110d38;
 
 }
 
@@ -62,30 +67,33 @@ header {
     position: relative;
     margin: auto;
     display: block;
-    padding: 0.5% 0% 0% 0%;
+    padding: 1% 0% 0% 0%;
     height: 100%;
-    width: 2.75%;
+    width: 3%;
     top: 0%;
 }
 .logo {
     overflow: hidden;
-    position: static;
+    position: absolute;
     display: block;
-    padding: 0px 0px 0px 0px;
     margin: 0px;
     left: 0%;
-    height: 55px;
+    height: 4.1075429424943986vh;
     width: 70px;
 }
 
+a: {
+    color: black;
+}
 
 a:visited {
     color: black;
 }
 
 a:hover {
-    color: #063A6E
+    color: #110d38
 }
+
 
 
 /* MAIN PORTION OF SITE */
@@ -95,9 +103,9 @@ main {
     position: relative;
     display: block;
     padding: 10% 0% 0% 0%;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 0% 0% 0%;
     height: 4000px;
-    background-color: #002838;
+    background-color: #110d38;
 }
 
 
@@ -119,33 +127,48 @@ h1 {
     margin: 5% 5%;
     background-color: #E5E5E5;
     overflow: hidden;
+    border-radius: 1rem;
+    height: 80%;
 }
 
 h2 {
     font-size: 75px;
+    text-align: left;
 }
 
 .upcomingcontainer {
-    display: inline-block;
+    display: inline-flex;
     position: relative;
-    height: 50%;
+    height: 40rem;
     width: 100%;
-    padding: 10% 0% 10% 0%;
+    padding: 5% 0% 0% 10%;
  /*   background-color: black; */
 }
 
 .tracks {
-    display: inline-block;
+    display: flex;
     position: relative;
+    width: auto;
+    height: auto;
     padding: 0px;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding: 0;
-    align-content: center;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    
 }
 
-
-
+span:before{
+    content:" "; 
+    display:inline-block; 
+    width: 5rem;
+}
+.alltracks {
+    display: inline=block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0% 0% 0% 10%;
+}
 
 
 
